@@ -6,7 +6,7 @@ from langchain.chains.conversation.prompt import ENTITY_MEMORY_CONVERSATION_TEMP
 from langchain.chat_models import ChatOpenAI
 
 st.set_page_config(
-    page_title='助理艾凡达', 
+    page_title='艾凡达助理', 
     page_icon='./images/favicon.ico',
     layout='wide',
     menu_items={
@@ -82,10 +82,10 @@ st.image(logo_image,width=100)
 
 st.markdown(
         ''' 
-        > :black[**艾凡达助理,**  *powered by -  [LangChain]('https://langchain.readthedocs.io/en/latest/modules/memory.html#memory') + 
+        > :black[**艾凡达助理,**  *由多模型构建 -  [LangChain]('https://langchain.readthedocs.io/en/latest/modules/memory.html#memory') + 
         [OpenAI]('https://platform.openai.com/docs/models/gpt-3-5') + 
         [Streamlit]('https://streamlit.io') + [DataButton](https://www.databutton.io/) +
-        [Whisper](https://openai.com/research/whisper)*]
+        [Whisper](https://openai.com/research/whisper) + ...*]
         ''')
 # st.markdown(" > Powered by -  🦜 LangChain + OpenAI + Streamlit + Whisper")
 
